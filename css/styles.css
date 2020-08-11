@@ -1,0 +1,38 @@
+html {
+    min-height: 100%;
+  }
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-image: linear-gradient(-225deg, #5c45b2 0%, #18d45e 52%, #ffb300 100%);
+    min-height: 100%;
+    padding-bottom: 5rem;
+  }
+  
+  .container {
+      background-color: white;
+  }
+  header {
+    margin-top: 3rem;
+  }
+  header h1 {
+    color: white;
+  }
+  .appointments-list .media {
+    border-bottom: 1px solid #e1e1e1;
+    padding-bottom: 3rem;
+  }
+  
+  .appointments-list .media-body p {
+    margin:0;
+  }
+  .appointments-list .media-body button {
+    margin-top: 1rem!important;
+  }
+  .appointments-list .media-body span {
+    font-weight: bold;
+  }
+  textarea {
+      height: 200px!important;
+  }
